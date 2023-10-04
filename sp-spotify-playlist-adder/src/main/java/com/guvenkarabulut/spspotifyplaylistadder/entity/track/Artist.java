@@ -1,4 +1,4 @@
-package com.guvenkarabulut.spspotifyplaylistadder.entity;
+package com.guvenkarabulut.spspotifyplaylistadder.entity.track;
 
 import lombok.Data;
 
@@ -8,6 +8,6 @@ public class Artist {
     private String href;
     private String id;
     private String name;
-    private ArtistType type;
+    private String type;
     private String uri;
 }

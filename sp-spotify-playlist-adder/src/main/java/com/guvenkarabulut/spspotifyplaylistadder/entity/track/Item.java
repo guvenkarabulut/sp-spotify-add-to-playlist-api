@@ -1,4 +1,4 @@
-package com.guvenkarabulut.spspotifyplaylistadder.entity;
+package com.guvenkarabulut.spspotifyplaylistadder.entity.track;
 
 import lombok.Data;
 
@@ -19,7 +19,7 @@ public class Item {
     private long popularity;
     private String previewURL;
     private long trackNumber;
-    private ItemType type;
+    private String type;
     private String uri;
 }
 

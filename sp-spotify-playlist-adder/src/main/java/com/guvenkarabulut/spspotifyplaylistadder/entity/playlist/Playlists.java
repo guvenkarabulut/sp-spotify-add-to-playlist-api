@@ -1,9 +1,9 @@
-package com.guvenkarabulut.spspotifyplaylistadder.entity;
+package com.guvenkarabulut.spspotifyplaylistadder.entity.playlist;
 
 import lombok.Data;
 
 @Data
-public class Tracks {
+public class Playlists {
     private String href;
     private Item[] items;
     private long limit;

@@ -1,4 +1,4 @@
-package com.guvenkarabulut.spspotifyplaylistadder.entity;
+package com.guvenkarabulut.spspotifyplaylistadder.entity.track;
 
 import lombok.Data;
 

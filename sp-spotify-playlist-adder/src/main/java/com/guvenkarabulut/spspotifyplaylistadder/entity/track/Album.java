@@ -1,4 +1,4 @@
-package com.guvenkarabulut.spspotifyplaylistadder.entity;
+package com.guvenkarabulut.spspotifyplaylistadder.entity.track;
 
 import lombok.Data;
 
@@ -6,7 +6,7 @@ import java.time.LocalDate;
 
 @Data
 public class Album {
-    private AlbumTypeEnum albumType;
+    private String albumType;
     private Artist[] artists;
     private String[] availableMarkets;
     private ExternalUrls externalUrls;
@@ -15,8 +15,8 @@ public class Album {
     private Image[] images;
     private String name;
     private LocalDate releaseDate;
-    private ReleaseDatePrecision releaseDatePrecision;
+    private String releaseDatePrecision;
     private long totalTracks;
-    private AlbumTypeEnum type;
+    private String type;
     private String uri;
 }
